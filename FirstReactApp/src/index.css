@@ -1,0 +1,28 @@
+:root {
+  font-family: monospace;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(241, 32, 32, 0.87);
+  background-color: skyblue;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1{
+  color: purple;
+  background-color: red;
+  font-size: 40px;
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #000000;
+    background-color:skyblue;
+  }
+  
+}
