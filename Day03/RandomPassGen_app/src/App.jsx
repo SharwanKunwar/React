@@ -30,7 +30,7 @@ function App() {
     let pass = "";
     let str = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
     
-    if(numberAllowed) str+="0123456789"
+    if(numberAllowed) str+="0123456789";
     if(charAllowed) str+="~!@#$%^&*+_-";
     
     for(let i=0; i<=length-1; i++){

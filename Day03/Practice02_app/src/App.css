@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}html,body{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(249, 156, 249);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#box{
+  width: 80vw;
+  height: 70vh;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  
+  
+}
+#result-outer{
+  width: 100%;
+  height: 50%;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  
+}
+#result-inner{
+  width: 100%;
+  height: 60%;
+  font-size: 2rem;
+  /* background-color: yellow; */
+  text-shadow: 2px 2px 4px black;
+  border: 1px solid white;
+  border-radius: 10px;
+  text-align: center;
+
+}
+
+#opt{
+  width: 100%;
+  height: 13%;
+  background-color: rgba(128, 0, 128, 0.448);
+  display: flex;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+#range{
+  width: 170px;
+  /* background-color: red; */
+}
+#btns{
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-around;
+}
+.btn{
+  width: 130px;
+  height: 50px;
+  color: white;
+  font-weight: 500;
+  background-color:black;
+  border-radius: 100px;
+  &:hover{
+    box-shadow: 1px 1px 5px 1px black;
+    cursor: pointer;
+  }
+}
