@@ -1,0 +1,17 @@
+#contact-outer{
+    width: 100%;
+    height: 85%;
+    background-color: white;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box{
+    width: 50%;
+    height: 50%;
+    background-color: rgb(76, 74, 202);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,11 @@
+#fotter-outer{
+    width: 90%;
+    height: 5%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    color: gray;
+    margin-left: 95px;
+
+}
