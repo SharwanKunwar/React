@@ -1,0 +1,36 @@
+#setCard-outer{
+    width: 500px;
+    height: 100%;
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+h2{
+    border-bottom: 1px solid white;
+    font-weight: 900;
+    font-size: 2rem;
+}
+.input{
+    width: 60%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    /* text-align: center; */
+    padding-left: 10px;
+    box-shadow: 1px 1px 100px rgb(129, 129, 236);
+    
+}
+#btn{
+    width: 30%;
+    height: 35px;
+    border: none;
+    border-radius: 100px;
+    background-color: rgb(75, 75, 238);
+    color: white;
+    font-weight: 600;
+    
+}
