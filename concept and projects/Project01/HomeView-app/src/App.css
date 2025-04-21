@@ -1,0 +1,11 @@
+.app-outer{
+    width: 90%;
+    height: 90%;
+    background-color: gray;
+    border-radius: 10px;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.315);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

@@ -1,0 +1,60 @@
+nav{
+    background: #30E8BF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF8235, #30E8BF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF8235, #30E8BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    border: 0.5px solid white;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.384);
+    border-radius: 7px;
+    color: white;
+    
+}
+#logo-title{
+    font-size: 30px;
+}
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+    font-family: monospace;
+    transition: 0.1s;
+    &:hover{
+        transition: 0.5s;
+        border-bottom: 1px solid black;
+        color: white;
+        transform: scale(1.1);
+    }
+}
+li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+ul{
+    width: 35%;
+    height: 50px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+#logo{
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: yellow; */
+}
+#menu-icon{
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: yellow; */
+}
