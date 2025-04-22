@@ -1,4 +1,5 @@
 
+import { useEffect, useState } from 'react'
 import './App.css'
 import Fotter from './components/Fotter/Fotter'
 import Navbar from './components/Header/Navbar'
@@ -6,7 +7,7 @@ import Navbar from './components/Header/Navbar'
 import { Outlet} from 'react-router'
 
 function App() {
-  
+
 
   return (
     <>

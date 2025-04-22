@@ -1,0 +1,7 @@
+#github-card-outer{
+    height: 85%;
+    background-color: rgb(5, 82, 112);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -23,6 +23,7 @@ function Intro() {
           <Link to="https://github.com"><img src="./src/assets/github.png" alt="github" /></Link>
           <Link to="https://linkdin.com"><img src="./src/assets/linkdin.png" alt="linkdin" /></Link>
         </div>
+        <div id='space'></div>
       </div>
       <div id='right-box' className='box'>
         <div id="lottie-animation">

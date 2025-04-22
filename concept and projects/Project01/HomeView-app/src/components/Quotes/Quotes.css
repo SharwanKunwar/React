@@ -1,0 +1,7 @@
+#quotes-outer{
+    height: 85%;
+    background-color: rgb(79, 140, 164);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
