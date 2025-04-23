@@ -7,6 +7,7 @@ import Home from './components/Home/Home.jsx'
 import Quotes from './components/Quotes/Quotes.jsx'
 import GithubCard from './components/GithubCard/GithubCard.jsx'
 import Intro from './components/Intro/Intro.jsx'
+import About from './components/About/About.jsx'
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: '/GithubCard',
         element: <GithubCard/>
+      },
+      {
+        path: '/About',
+        element: <About/>
       }
     ]
   }

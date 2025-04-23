@@ -30,10 +30,12 @@ function Home() {
     //function to get random quotes from array
     const RandomQuotes = () =>{
       const quotes = [
+        `"The magic you are looking for is in the work you are avoiding."`,
         `"Believe you can and you're halfway there."`,
         `"Dream big and dare to fail.`,
         `"Turn your wounds into wisdom."`,
-        `"What you do today can improve all your tomorrows."`
+        `"What you do today can improve all your tomorrows."`,
+        `"Life is game and you have to master it."`
       ];
       
       const randomIndex = Math.floor(Math.random() * quotes.length);

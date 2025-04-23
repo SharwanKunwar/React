@@ -1,7 +1,69 @@
 #quotes-outer{
     height: 85%;
-    background-color: rgb(79, 140, 164);
+    /* background-color: rgb(79, 140, 164); */
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px;
+}
+.con-box{
+    width: 50%;
+    height: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#quote-left-box{
+    /* background-color: red; */
+    text-shadow: 2px 2px 15px black;
+    color: white;
+    padding: 70px;
+    font-family: monospace;
+    font-size: 1.5rem;
+    
+}
+
+#quote-right-box{
+    /* background-color: purple; */
+    display: flex;
+    flex-direction: column;
+}
+#author{
+    width: 90%;
+    /* background-color: yellow; */
+    display: flex;
+    font-family: monospace;
+    font-size: 18px;
+    justify-content: end;
+    padding-right: 10px;
+}
+#buttons{
+    margin-top: 20px;
+    width: 90%;
+    height: 100px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#quote-Box{
+    width: 90%;
+    height: 250px;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin-bottom: 5px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-size: 1.5rem;
+    font-family: monospace;
+}
+#next-quote{
+    width: 40%;
+}
+#copy-quote{
+    width: 40%;
 }
