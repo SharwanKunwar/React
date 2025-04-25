@@ -1,7 +1,126 @@
 #github-card-outer{
     height: 85%;
-    background-color: rgb(5, 82, 112);
+    /* background-color: rgb(5, 82, 112); */
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
+}
+.card-box{
+    width: 50%;
+    height: 100%;
+    /* background-color: red; */
+}
+#card-left{
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#card-info{
+    width: 90%;
+    height: 70%;
+    background-color: #FA8BFF;
+    background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+    
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+}
+#card-info-text{
+    width: 90%;
+    /* background-color: purple; */
+    display: flex;
+    flex-direction: column;
+}
+#card-info-h2{
+    font-size: 2rem;
+    font-family: monospace;
+    color: white;
+    font-weight: 900;
+    text-shadow: 1px 1px 10px whitesmoke;
+}
+label{
+    width: 80%;
+    height: 70px;
+    font-family: monospace;
+    font-size: 20px;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    
+}
+#input-field{
+    width: 100%;
+    height: 40px;
+    padding-left: 20px;
+    border: none;
+    border-radius: 10px;
+
+}
+
+
+
+
+/* //right card code */
+#card-right{
+    /* background-color: purple; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#one-box{
+    width: 60%;
+    height: 95%;
+    background-color: #3EECAC;
+    background-image: linear-gradient(19deg, #3EECAC 0%, #EE74E1 100%);
+    
+
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+#img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px black;
+}
+#text-box{
+    width: 80%;
+    /* background-color: yellow; */
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: black;
+    text-shadow: 1px 1px 5px whitesmoke;
+    font-weight: 900;
+    /* border: 1px solid white; */
+}
+span{
+    color: white;
+}
+.text-h2{
+    margin-top: 10px;
+    font-size: 1.5rem;
+    font-family: monospace;
+    text-align: center;
+    border-bottom: 1px solid white;
+    
+}
+.text-h3{
+    font-size: 1.1rem;
+    font-family: monospace;
 }
