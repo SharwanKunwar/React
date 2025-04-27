@@ -1,0 +1,226 @@
+#about-outer{
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/* ///////////////////////////////// about top */
+#about-top{
+    width: 100%;
+    height: 20%;
+    /* background-color: rgb(49, 216, 27); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5;
+    animation: float 20s ease-in-out infinite;
+    
+}
+#about-title-h1{
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: monospace;
+    text-shadow: 1px 1px 4px ;
+}
+
+
+/* ////////////////////////////////////  about buttom */
+
+#about-buttom{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* background-color: yellow; */
+    gap: 10px;
+}
+#about-buttom-left-box{
+    width: 50%;
+    height: 100%;
+    /* background-color: skyblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#about-buttom-lottie-box{
+    width: 90%;
+    height: 90%;
+    /* background-color: red; */
+}
+#about-buttom-left-blur-box {
+    width: 80%;
+    height: 90%;
+    background: rgba(97, 97, 95, 0.2); /* light transparent yellow */
+    backdrop-filter: blur(1px); /* main glass effect */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    border: 1px solid rgba(170, 169, 169, 0.3); /* soft border */
+    border-radius: 10px; /* rounded corners (optional) */
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+#about-buttom-left-imgBox{
+    width: 60%;
+    height: 80%;
+    margin-left: 50%;
+    position: absolute;
+    background: rgba(124, 124, 124, 0.2); /* light transparent yellow */
+    backdrop-filter: blur(10px); /* main glass effect */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    border: 1px solid rgba(170, 169, 169, 0.3); /* soft border */
+    border-radius: 10px; /* rounded corners (optional) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: float 10s ease-in-out infinite;
+    
+}
+#about-buttom-left-imgBox-img{
+    width: 95%;
+    height: 95%;
+    object-fit: cover;
+    border-radius: 5px;
+    background-position: center;
+    box-shadow: 1px 1px 5px;
+}
+#about-buttom-left-social-icons-box{
+    width: 12%;
+    height: 80%;
+    position: absolute;
+    background-color: red;
+    border-radius: 10px;
+    margin-right: 50%;
+    background: rgba(124, 124, 124, 0.2); /* light transparent yellow */
+    backdrop-filter: blur(10px); /* main glass effect */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    border: 1px solid rgba(170, 169, 169, 0.3); /* soft border */
+    border-radius: 10px; /* rounded corners (optional) */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.about-buttom-left-social-icons-box-icon{
+    width: 60px;
+    /* background-color: red; */
+    border-radius: 100px;
+    box-shadow: 1px 1px 5px black;
+    transition: 0.5s;
+    &:hover{
+        transform: scale(1.2);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+#about-buttom-right-box{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(44, 226, 89); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+#about-buttom-right-box-textBox-outer{
+    width: 90%;
+    height: 90%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3%;
+    padding: 5px 20px;
+}
+#about-buttom-right-box-textBox-infoDetails-box{
+    width: 100%;
+    /* height: 40%; */
+    background-color: rgb(133, 153, 240);
+    border-radius: 10px;
+    display: flex;
+    gap: 20px;
+    background: rgba(124, 124, 124, 0.2); /* light transparent yellow */
+    backdrop-filter: blur(10px); /* main glass effect */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    border: 1px solid rgba(170, 169, 169, 0.3); /* soft border */
+    border-radius: 10px; /* rounded corners (optional) */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    
+    
+}
+.info-box{
+    width: 50%;
+    /* height: 100%; */
+    /* background-color: purple; */
+    /* padding: 3%; */
+    display: flex;
+    
+}
+#about-buttom-right-box-textBox-infoDetails-box-left{
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+}
+#about-buttom-right-box-textBox-infoDetails-box-right{
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    /* background-color: red; */
+}
+.info-sub-text{
+    color: gray;
+}
+.sec-info-text{
+    margin-bottom: 7%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#about-right-box{
+    width: 50%;
+    height: 100%;
+    background-color: red;
+}
