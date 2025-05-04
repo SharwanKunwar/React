@@ -1,0 +1,168 @@
+#home-outer{
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#home-left{
+    width: 50%;
+    height: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#home-text-box{
+    width: 80%;
+    /* height: 90%; */
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+#title{
+    /* color: yellow; */
+    font-size: 3rem;
+}
+#sub-title{
+    /* background-color: purple; */
+    font-size: 2rem;
+}
+#des-text{
+    margin-top: 10px;
+    color: gray;
+}
+#home-btn{
+    color: white;
+    font-weight: 600;
+    background-color: black;
+    width: 200px;
+    height: 50px;
+    border: none;
+    margin-top: 30px;
+    border-radius: 100px;
+}
+
+
+
+#home-right{
+    width: 50%;
+    height: 100%;
+    /* background-color: purple; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#ros-img{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    #home-outer{
+        width: 100%;
+        height: 100%;
+        /* background-color: red; */
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    #home-left{
+        width: 100%;
+        height: 100%;
+        /* background-color: yellow; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #home-text-box{
+        width: 90%;
+        /* height: 90%; */
+        /* background-color: red; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+    }
+    #title{
+        /* color: yellow; */
+        font-size: 1.5rem;
+    }
+    #sub-title{
+        /* background-color: purple; */
+        font-size: 1rem;
+    }
+    #des-text{
+        margin-top: 10px;
+        color: gray;
+    }
+    #home-btn{
+        color: white;
+        font-weight: 600;
+        background-color: black;
+        width: 100%;
+        /* height: 50px; */
+        border: none;
+        /* margin-top: 30px; */
+        border-radius: 100px;
+        margin-bottom: 20%;
+    }
+    
+    
+    
+    #home-right{
+        width: 100%;
+        height: 100%;
+        /* background-color: purple; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #ros-img{
+        width: 80%;
+        height: 80%;
+        object-fit: cover;
+        border-radius: 20px;
+        box-shadow: 2px 2px 5px black;
+    }
+    
+    
+    
+    
+    
+    
+}

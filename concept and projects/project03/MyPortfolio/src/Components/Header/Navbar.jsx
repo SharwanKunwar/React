@@ -28,6 +28,8 @@ function Navbar() {
                     <li>Contact</li>
                 </a><a className='nav-list' href="blog">
                     <li>Blog</li>
+                </a><a className='nav-list' href="Projects">
+                    <li>Projects</li>
                 </a>
             </ul>
         </div>

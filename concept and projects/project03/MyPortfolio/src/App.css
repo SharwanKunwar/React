@@ -1,41 +1,41 @@
 #app-outer::-webkit-scrollbar {
-    width: 10px;             /* Width of vertical scrollbar */
-    height: 10px;            /* Height of horizontal scrollbar */
-  }
-  
-  /* Track (background of scrollbar) */
-  #app-outer::-webkit-scrollbar-track {
-    background: #f1f1f1;
-    border-radius: 5px;
-  }
-  
-  /* Thumb (the draggable part) */
-  #app-outer::-webkit-scrollbar-thumb {
-    background: #888;
-    border-radius: 5px;
-  }
-  
-  /* Thumb on hover */
-  #app-outer::-webkit-scrollbar-thumb:hover {
-    background: #555;
-  }
-  
-  #app-outer {
-    overflow: auto; /* or overflow-y: auto; */
-    scrollbar-width: none;      /* Firefox */
-    -ms-overflow-style: none;   /* IE and Edge */
-  }
-  
-  #app-outer::-webkit-scrollbar {
-    display: none;              /* Chrome, Safari */
-  }
-  
-  
+  width: 10px;             /* Width of vertical scrollbar */
+  height: 10px;            /* Height of horizontal scrollbar */
+}
+
+/* Track (background of scrollbar) */
+#app-outer::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+
+/* Thumb (the draggable part) */
+#app-outer::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+/* Thumb on hover */
+#app-outer::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+#app-outer {
+  overflow: auto; /* or overflow-y: auto; */
+  scrollbar-width: none;      /* Firefox */
+  -ms-overflow-style: none;   /* IE and Edge */
+}
+
+#app-outer::-webkit-scrollbar {
+  display: none;              /* Chrome, Safari */
+}
+
+
 #app-outer{
-    width: 100vw;
-    height: 100vh;
-    /* background-color: red; */
-    overflow-x: hidden;
-    overflow-y: auto;
-    
+  width: 100vw;
+  height: 100vh;
+  /* background-color: red; */
+  overflow-x: hidden;
+  overflow-y: auto;
+  
 }
