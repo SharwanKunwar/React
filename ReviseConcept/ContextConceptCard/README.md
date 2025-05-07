@@ -1,12 +1,32 @@
-# React + Vite
+# 📄 React Context Form Project — User Profile Card Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🧠 Overview
 
-Currently, two official plugins are available:
+This is a simple React application that allows users to input their personal details (name, age, address, contact) and upload an image. Upon submission, the data is stored in a global context (`UserContext`) and displayed on a final profile card page.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 📦 Uses React Context API for global state management.
+- 🧾 Form with fields: name, age, address, contact number.
+- 🖼️ Image upload from local device.
+- 🔄 Navigation between input form and final card using `react-router-dom`.
+- ✅ Form validation (user must fill all fields before proceeding).
+
+---
+
+## 🧱 Tech Stack
+
+| Tech | Purpose |
+|------|---------|
+| React | Core framework |
+| React Router DOM | Page navigation |
+| React Context API | Global state management |
+| Tailwind CSS | Styling |
+| JavaScript | Logic and interaction |
+
+---
+
+
+
