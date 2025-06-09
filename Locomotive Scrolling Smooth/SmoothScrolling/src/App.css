@@ -1,0 +1,12 @@
+@import 'tailwindcss';
+
+h2::before{
+  content: "Locomotive";
+  color: red;
+  font-weight: bold;
+}
+h3::after{
+  content: "Scrolling";
+  color: red;
+  font-weight: bold;
+}
